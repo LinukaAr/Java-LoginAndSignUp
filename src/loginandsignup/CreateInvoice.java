@@ -14,7 +14,7 @@ import static javax.swing.JOptionPane.showMessageDialog;
 
 public class CreateInvoice extends javax.swing.JFrame {
     
-    private  String SUrl = "jdbc:mysql://localhost:3306/javaitemsdatabase";
+    private  String SUrl = "jdbc:mysql://localhost:3306/javausersdatabase";
     private String SUser = "root";
     private String SPass = "";
     
@@ -240,7 +240,7 @@ public class CreateInvoice extends javax.swing.JFrame {
         System.out.println("Save btn clicked");
         String Customer_Name, Item_Name, Item_Price,Item_Description,query;
         String SUrl,SUser,SPass;
-        SUrl ="jdbc:mysql://localhost:3306/javainvoicedatabase";
+        SUrl ="jdbc:mysql://localhost:3306/javausersdatabase";
         SUser = "root";
         SPass = "";
          try{
