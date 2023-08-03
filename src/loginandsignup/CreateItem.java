@@ -198,7 +198,7 @@ public class CreateItem extends javax.swing.JFrame {
         System.out.println("Save btn clicked");
         String Item_Name, Item_Price, Item_Description,query;
         String SUrl,SUser,SPass;
-        SUrl ="jdbc:mysql://localhost:3306/javaitemsdatabase";
+        SUrl ="jdbc:mysql://localhost:3306/javausersdatabase";
         SUser = "root";
         SPass = "";
          try{
@@ -240,7 +240,7 @@ public class CreateItem extends javax.swing.JFrame {
         System.out.println("Update btn clicked");
         String Id,Item_Name, Item_Price, Item_Description,query;
         String SUrl,SUser,SPass;
-        SUrl ="jdbc:mysql://localhost:3306/javaitemsdatabase";
+        SUrl ="jdbc:mysql://localhost:3306/javausersdatabase";
         SUser = "root";
         SPass = "";
          try{
@@ -288,7 +288,7 @@ public class CreateItem extends javax.swing.JFrame {
     private void DeleteBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteBtnActionPerformed
     System.out.println("Delete btn clicked");
     String Id = ItemId.getText();
-    String SUrl = "jdbc:mysql://localhost:3306/javaitemsdatabase";
+    String SUrl = "jdbc:mysql://localhost:3306/javausersdatabase";
     String SUser = "root";
     String SPass = "";
          try{
